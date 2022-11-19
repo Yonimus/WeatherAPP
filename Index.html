@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css" media="screen">
+    <title>WeatherApp</title>
+</head>
+<body>
+    <nav class="navbar" style="background-color: #3eeffd;">Weather Application</nav>
+    <div class="MainSection">
+        <section class="Topbar">
+            <h5>Select a City.</h5>
+            <input class="input">
+            <button class="search">Search</button>
+        </section>
+        <h5 id="recent">Recent Locations</h5>
+    </div>
+    <div class="col-md-4 mb-4">
+        <section>
+            <h3 class="currentLoc">Current Location: Norristown</h3>
+            <h5 class="date"></h4>
+            <h7 class="temperature"></h7>
+            <h7 class="windspeed"></h7>
+            <h7 class="humidity"></h7>
+            <h7 class="uvIndex"></h7>
+        </section>
+    </div>
+    <div id="cardContainer">
+        <h3>Forecast</h3>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+   <script src="./assets/index.js"></script>
+</body>
+</html>
