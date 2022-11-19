@@ -1,0 +1,21 @@
+.MainSection{
+    display: flex;
+    margin: 12px;
+}
+.Topbar{
+    font-size: 24px;
+    font-weight: bold;
+}
+.search{
+    margin: 12px
+}
+.input{
+    margin: 12px;
+}
+.currentloc{
+    margin: 6px;
+}
+.date{margin-top: 6px;}
+.humidity{
+    margin-bottom: 6px;
+}
